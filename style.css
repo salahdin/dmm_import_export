@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+body
+{
+ font-family: 'Courier New', Courier, monospace;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+.navbar
+{
+    background-image: linear-gradient(90deg, rgba(92,96,107,1) 2%, rgba(28,62,78,1) 46%, rgba(60,120,172,1) 100%);
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    height: 50px;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding:0 10px;
+}
+.navbar-nav li a
+{
+    color:rgb(243, 243, 243) !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: wheat;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*--------------- banner section----------------*/
