@@ -187,3 +187,10 @@ body
     width: 100px;
     margin-bottom: 10px;
 }
+
+.contacts
+{
+    padding-top: 80px;
+    display: block;
+    font-style: italic !important;
+}
